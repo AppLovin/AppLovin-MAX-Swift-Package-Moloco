@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/moloco/moloco-sdk-ios-spm.git", exact: "4.9.0")
+        .package(url: "https://github.com/moloco/moloco-sdk-ios-spm.git", exact: "4.9.1")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationMolocoAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.9.0.0.zip",
-            checksum: "9ee7dcfef0cb5cdc22f3837ee2510055b8ec8fec6b06491c45b2a204004285db"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.9.1.0.zip",
+            checksum: "5a286b22156dea568ef832818f32e1d72d51a024135129ba24756becb6dd5418"
         )
     ]
 )
