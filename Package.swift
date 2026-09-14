@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationMolocoAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationMolocoAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationMolocoAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.10.0.0.zip",
-            checksum: "a7145c57c50cd83339ec8646297af06221a97524563c5b6132f89b2bbbd76ce2"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.10.0.1.zip",
+            checksum: "f618d98c68fd51646c8aaf05f6606451ff944e1c910791df1cab7ea03a9c3de7"
         )
     ]
 )
