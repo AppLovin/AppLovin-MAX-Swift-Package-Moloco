@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationMolocoAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.11.1.0.zip",
-            checksum: "5a0ad2547d0e9f1d6a51ac95aed71c1ce6dc02da84bc13b478577bc82eddfadc"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/moloco-adapter/AppLovinMediationMolocoAdapter-4.11.1.1.zip",
+            checksum: "932e2e8a0db158ddafd2895a8452d709f73c8353c08ba7f054170f7756824737"
         )
     ]
 )
